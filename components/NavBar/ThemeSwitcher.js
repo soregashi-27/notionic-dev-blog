@@ -1,3 +1,8 @@
+/**
+ * ダークモード・ライトモードの切り替え
+ * 
+ */
+
 import { useEffect, useState } from 'react'
 import { SunIcon, MoonIcon } from '@heroicons/react/outline'
 import { useTheme } from 'next-themes'

@@ -66,6 +66,9 @@ export default function NotionRenderer (props) {
       components={components}
       mapPageUrl={mapPageUrl}
       recordMap={props.blockMap}
+      //.blockmapでエラーが出た場合は下記で試す。getStaticPropsがエラーを返した場合、ページ生成に失敗している。
+      //recordMap={props.blockMap ? props.blockMap : null}
+      // recordMap={props.blockMap || {}}
       {...props}
     />
   )
