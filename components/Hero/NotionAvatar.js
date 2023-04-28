@@ -1,3 +1,8 @@
+/**
+ * ヒーローセクションで載せるsvgファイル
+ * 
+ */
+
 // https://react-svgr.com/playground/
 import * as React from 'react'
 

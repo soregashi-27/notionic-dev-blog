@@ -1,3 +1,9 @@
+/**
+ * 何かのお知らせやポートフォリオはここで載せたい
+ * 
+ * ※開発中
+ */
+
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import Social from '../Common/Social.js'

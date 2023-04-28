@@ -1,3 +1,10 @@
+/**
+ * ブログのニュースレターの購読フォームを含むヒーローセクション
+ * 
+ * ※現在開発中
+ */
+
+
 import BLOG from '@/blog.config'
 import Link from 'next/link'
 import Social from '../Common/Social.js'
