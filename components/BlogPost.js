@@ -29,6 +29,7 @@ const BlogPost = ({ post }) => {
               </span>
             </header>
             <p className='font-light hidden md:block leading-8 text-gray-700 dark:text-gray-300'>{post.summary}</p>
+            {/* summaryからlead_書き換える */}
             {/* w-4/5  */}
           </div>
         </article>
