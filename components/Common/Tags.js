@@ -1,3 +1,9 @@
+/**
+ * タグのリストをレンダリングするReactコンポーネント
+ * 
+ */
+
+
 import Link from 'next/link'
 
 const Tags = ({ tags, currentTag }) => {

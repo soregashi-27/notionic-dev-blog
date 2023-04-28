@@ -1,3 +1,8 @@
+/**
+ * タグクリック時に専用ページでタグ別の記事を表示する
+ * 
+ */
+
 import Link from 'next/link'
 
 const TagItem = ({ tag }) => (

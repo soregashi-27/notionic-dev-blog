@@ -1,3 +1,6 @@
+## inspired
+https://letsbuildui.dev/articles/animated-page-transitions-in-nextjs
+
 # Notionic
 
 Notionic is a static blog that updates in real time, synchronizing changes to Notion pages without rebuilding the deployment.
