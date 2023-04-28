@@ -1,3 +1,8 @@
+/**
+ * 画像をレンダリングするための
+ * 
+ */
+
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
@@ -15,7 +20,7 @@ export default function ImageFallback({ src, fallbackSrc, alt, ...rest }) {
       alt={alt}
       onLoadingComplete={(result) => {
         if (result.naturalWidth === 0) {
-          // Broken image
+          // イメージが崩れた場合は代替え画像を設定する
           setImgSrc(fallbackSrc)
         }
       }}

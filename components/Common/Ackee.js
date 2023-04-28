@@ -1,3 +1,8 @@
+/**
+ * Ackeeのアクセス解析
+ * （使わないので追加しない）
+ */
+
 import { useRouter } from 'next/router'
 import useAckee from 'use-ackee'
 

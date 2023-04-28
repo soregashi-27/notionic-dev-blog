@@ -1,3 +1,8 @@
+/**
+ * Reactコンポーネントを使用して、SVG画像を描画する
+ * 
+ */
+
 // https://react-svgr.com/playground/
 import * as React from 'react'
 

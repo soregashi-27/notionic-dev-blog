@@ -1,19 +1,26 @@
+/**
+ * ブログの内部設定
+ * 
+ */
+
+
+
 const BLOG = {
-  title: 'Notionic',
-  author: '左蓝',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  title: 'tomomemo.com',
+  author: 'Tomo from "tomomemo.com"',
+  email: 'contact.tomo.studyvlog@gmail.com',
+  link: 'https://tomomemo.com',
+  newsletter: 'Comming soon..',
+  description: '開発レベルを上げるために、現役エンジニアがつづるメモ書き',
+  lang: 'ja-JP', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#212936', // use hex value, don't forget '#'
-  path: '', // leave this empty unless you want to deploy Notionic in a folder
-  since: 2022, // If leave this empty, current year will be used.
-  postsPerPage: 10,
+  lightBackground: '#F6F8FA', // 16進数の値を使用 '#' を忘れずに。 e.g #fffefc
+  darkBackground: '#212936', // 16進数の値を使用 '#' を忘れずに。
+  path: '', // Notionicをフォルダに展開する場合を除き、空欄のままにしておきます。 thanks to notionic.
+  since: '2023', // 空欄の場合は、現在の年度が使用されます。
+  postsPerPage: 10, 
   sortByDate: true,
   pagesShow: {
     newsletter: true,
@@ -25,8 +32,8 @@ const BLOG = {
   },
   showWeChatPay: true,
   previewImagesEnabled: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
+  autoCollapsedNavBar: false, // ナビゲーションバーは自動的に折りたたまれる（default: false）
+  ogImageGenerateHost: 'og-zl.vercel.app', // OG画像を生成するためのリンクで、スラッシュで終わらないようにしてください。
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/izuolan',
@@ -34,20 +41,20 @@ const BLOG = {
     telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
-    googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
+    keywords: ['tomomemo', 'tomo study vlog', 'とも スタディブログ', 'とも スタディブログ', 'エンジニア ブログ', 'エンジニア ブログ 開発'],
+    googleSiteVerification: '' // 独自のgoogleサイト認証コードに置き換えてください。
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
-  notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
+  notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // データベースを公開したくない場合に便利
   notionDomain: 'izuolan.notion.site',
-  telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
-  telegramChatId: '263895784', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
-  telegramChannelName: 'zuolan_me', // The name of your Telegram channel
+  telegramToken: process.env.TELEGRAM_TOKEN, // Telegramボットのトークン
+  telegramChatId: '', // TelegramボットのチャットID
+  telegramChannelUrl: '', // TelegramボットのLINK
+  telegramChannelName: '', // Telegramボットのチャンネル名
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
-    provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
+    provider: '', // 現在、Google Analytics、Ackee、Umami、Cloudflare Insightsに対応していますので、「ga」または「ackee」または「umami」または「cf」を記入してください。空欄にすると無効になります。
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.example.com/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.example.com , don't end with a slash
@@ -76,7 +83,7 @@ const BLOG = {
       repo: ''
     }
   },
-  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
+  isProd: process.env.VERCEL_ENV === 'production' // vercelでデプロイする場合、開発環境と本番環境を区別する (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
 module.exports = BLOG

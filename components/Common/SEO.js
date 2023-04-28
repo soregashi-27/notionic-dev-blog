@@ -1,3 +1,16 @@
+/**
+ * SEO（検索エンジン最適化）を担当するReactコンポーネント
+ * 
+ * 概要
+ * ページのタイトル、メタタグ、OGタグ、などの重要なSEO要素を生成
+ * ブログ設定ファイル（blog.config.js）からの構成オプションを読み取り、メタ情報を生成
+ * 記事の場合は、公開日時と作成者情報を追加
+ * 
+ * TODO
+ * 最新更新日時を追加したい
+ */
+
+
 import BLOG from '@/blog.config'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
