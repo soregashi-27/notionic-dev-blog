@@ -1,3 +1,8 @@
+/**
+ * SEO のためのメタデータ、タイトル、概要などを設定
+ * 
+ */
+
 import { useEffect, useState } from 'react'
 import { getPageTitle } from 'notion-utils'
 import { motion } from 'framer-motion'

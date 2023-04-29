@@ -1,3 +1,9 @@
+/**
+ * ブログの検索機能
+ * 
+ */
+
+
 import { useState } from 'react'
 import BlogPost from '@/components/BlogPost'
 import Container from '@/components/Container'
