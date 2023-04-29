@@ -1,3 +1,8 @@
+/**
+ * ブログ記事内の右側に出すボタン
+ * 
+ */
+
 import BLOG from '@/blog.config'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'

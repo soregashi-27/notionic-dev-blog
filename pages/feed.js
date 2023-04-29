@@ -1,3 +1,8 @@
+/**
+ * RSSフィードを生成する
+ * 
+ */
+
 import { getAllPosts } from '@/lib/notion'
 import { generateRss } from '@/lib/rss'
 // import { generateRss } from '@/lib/rssContent'

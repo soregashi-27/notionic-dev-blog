@@ -1,3 +1,11 @@
+/**
+ * Craft.doというノートアプリケーションのAPIを呼び出すためのAPIエンドポイントを定義
+ * 
+ * ※未使用
+ */
+
+
+
 // const fetch = require('node-fetch')
 
 module.exports = async (req, res) => {

@@ -1,3 +1,9 @@
+/**
+ * ブログアプリケーションのコンポーネントとロジック
+ * 
+ * 基本触らない
+ */
+
 import Container from '@/components/Container'
 import BlogPost from '@/components/BlogPost'
 import Hero from '@/components/Hero/Home'

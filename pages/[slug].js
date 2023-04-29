@@ -1,3 +1,8 @@
+/**
+ * 個々の記事ページを生成する
+ * 
+ */
+
 import Layout from '@/layouts/layout'
 import { getAllPosts, getPostBlocks } from '@/lib/notion'
 import BLOG from '@/blog.config'

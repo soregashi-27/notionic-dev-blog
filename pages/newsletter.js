@@ -1,3 +1,8 @@
+/**
+ * ニュースレターページの構築
+ * 
+ */
+
 import Container from '@/components/Container'
 import BlogPost from '@/components/BlogPost'
 import NewsletterHero from '@/components/Hero/Newsletter'

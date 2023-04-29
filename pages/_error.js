@@ -1,3 +1,8 @@
+/**
+ * Status Codeの判定
+ * 
+ */
+
 import NotFound from '@/components/NotFound'
 
 function Error({ statusCode }) {

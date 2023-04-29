@@ -1,3 +1,8 @@
+/**
+ * 検索ページの構築
+ * 
+ */
+
 import { getAllPosts, getAllTagsFromPosts } from '@/lib/notion'
 import SearchLayout from '@/layouts/search'
 

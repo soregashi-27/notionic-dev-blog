@@ -1,3 +1,10 @@
+/**
+ * <head>と<Body>要素のカスタマイズ
+ * 
+ * 基本的には触らない
+ * 
+ */
+
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import BLOG from '@/blog.config'
 

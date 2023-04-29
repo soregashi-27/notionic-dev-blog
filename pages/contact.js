@@ -1,3 +1,8 @@
+/**
+ * コンタクトページのコンポーネント
+ * 
+ */
+
 import Container from '@/components/Container'
 import ContactForm from '@/components/ContactForm'
 import BLOG from '@/blog.config'

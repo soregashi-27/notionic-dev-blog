@@ -1,3 +1,8 @@
+/**
+ * Notion APIを使用したブログのタグ検索機能
+ * 
+ */
+
 import { getAllPosts, getAllTagsFromPosts } from '@/lib/notion'
 import SearchLayout from '@/layouts/search'
 

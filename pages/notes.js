@@ -1,3 +1,8 @@
+/**
+ * noteページの構築
+ * 
+ */
+
 import Container from '@/components/Container'
 import NotePost from '@/components/NotePost'
 import NotesHero from '@/components/Hero/Notes'

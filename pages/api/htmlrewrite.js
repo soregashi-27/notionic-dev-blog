@@ -1,3 +1,12 @@
+/**
+ * crafto.do API
+ * 
+ * ※未使用
+ * 
+ */
+
+
+
 import { getBlocksMaps } from '@/lib/getBlocksMaps'
 
 async function getBlockItem(path) {

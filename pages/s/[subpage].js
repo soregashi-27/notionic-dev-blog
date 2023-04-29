@@ -1,3 +1,8 @@
+/**
+ * ページ内のサブページを表示
+ * 
+ */
+
 import BLOG from '@/blog.config'
 import Layout from '@/layouts/layout'
 import { getAllPosts, getPostBlocks } from '@/lib/notion'

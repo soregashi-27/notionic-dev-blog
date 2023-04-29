@@ -1,3 +1,8 @@
+/**
+ * 指定されたページ番号に基づいて表示する記事を決定し、ページネーションを表示
+ * 
+ */
+
 import Container from '@/components/Container'
 import BlogPost from '@/components/BlogPost'
 import Pagination from '@/components/Pagination'
