@@ -3,8 +3,7 @@ https://letsbuildui.dev/articles/animated-page-transitions-in-nextjs
 
 # Notionic
 
-Notionic is a static blog that updates in real time, synchronizing changes to Notion pages without rebuilding the deployment.
-
+Notionicはリアルタイムで更新される静的ブログで、デプロイを再構築することなくNotionのページに変更を同期させます。
 ![Notionic](./banner.png)
 
 ## Demo
@@ -16,24 +15,24 @@ Notionic is a static blog that updates in real time, synchronizing changes to No
 
 - Incremental static regeneration
 - Outline
-- Theme switch
-- Multi-language
-- Native style comments
-- Loading and transition animation
-- Block page support
-- SEO and Open Graph optimization
-- Newsletter support
-- Contact Form
-- Telegram bot integration
+- テーマスイッチ
+- 多言語対応
+- ネイティブスタイルのコメント
+- ローディングとトランジションアニメーション
+- ブロックページ対応
+- SEOとOpen Graphの最適化
+- ニュースレター対応
+- お問い合わせフォーム
+- テレグラムボットの統合
 
 ## Quick Start
 
-- Duplicate [Notionic template](https://izuolan.notion.site/87d5fa7c98e04cb79ef55f60989dc765), and share it to the public
+- Notionicのテンプレートを複製し、公開する。 [Notionic template](https://izuolan.notion.site/87d5fa7c98e04cb79ef55f60989dc765)
 - [Fork](https://github.com/izuolan/notionic/fork) this project
-- **Customize `blog.config.js` file**
-- _(Optional)_ Replace `favicon.svg/png/ico` in `public` folder with your own
-- Modify `lib/lang.js` with your self introduction
-- Deploy on [Vercel](https://vercel.com), set following environment variables：
+- **blog.config.jsファイルをカスタマイズする**
+- _(Optional)_ publicフォルダ内のfavicon.svg/png/icoを自作に置き換える。
+- lib/lang.jsを自己紹介を兼ねて修正する。
+- Vercel上にデプロイし、以下の環境変数を設定します。 [Vercel](https://vercel.com)
   - `NOTION_PAGE_ID` (Required): The ID of the Notion page you previously shared to the web, usually has 32 digits after your workspace address
   - eg: `https://your-username.notion.site/<NOTION_PAGE_ID>?v=<view_id>`
 
