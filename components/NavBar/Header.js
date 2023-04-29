@@ -20,7 +20,7 @@ import {
 import Social from '../Common/Social.js'
 import ThemeSwitcher from './ThemeSwitcher.js'
 //import LangSwitcher from './LangSwitcher.js'
-import Logo from '@/components/Common/Logo'
+//import Logo from '@/components/Common/Logo' // ローマ字のものに変更 or 後々アイコンを追加する
 import { motion } from 'framer-motion'
 
 const NavBar = () => {
@@ -181,7 +181,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
         <div className='flex items-center'>
           <Link passHref href='/' scroll={false} aria-label={BLOG.title}>
             <motion.div>
-              <Logo className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current' />
+              {/* <Logo className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current' /> */}
             </motion.div>
           </Link>
           {navBarTitle ? (

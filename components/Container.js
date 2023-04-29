@@ -1,3 +1,9 @@
+/**
+ * ブログ全体のコンテナ（サムネイル）作成をするコンポーネント
+ * 
+ */
+
+
 import SEO from '@/components/Common/SEO'
 import BLOG from '@/blog.config'
 import PropTypes from 'prop-types'

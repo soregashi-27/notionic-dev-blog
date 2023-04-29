@@ -1,3 +1,11 @@
+/**
+ * テーブルオブコンテンツ（目次）コンポーネント
+ * 
+ * NotionのAPIを使用し、ブログ投稿のNotionページからページ内の見出し（ヘッディング）のリストを作成
+ * このリストを使用することでブログ投稿内のセクションにスクロールするためのリンクを提供している
+ * 
+ */
+
 import PropTypes from 'prop-types'
 import { getPageTableOfContents } from 'notion-utils'
 import Link from 'next/link'

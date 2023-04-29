@@ -9,7 +9,8 @@ import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import {
   UserIcon,
-  UsersIcon,
+  //UsersIcon,
+  MapIcon,
   BookOpenIcon,
   MailIcon
 } from '@heroicons/react/outline'
@@ -40,12 +41,19 @@ const Footer = ({ fullWidth }) => {
       icon: <UserIcon className='inline-block mb-1 h-5 w-5' />,
       show: true
     },
+    // {
+    //   id: 1,
+    //   name: t.NAV.FRINEDS,
+    //   to: '/friends',
+    //   icon: <UsersIcon className='inline-block mb-1 h-5 w-5' />,
+    //   show: BLOG.pagesShow.friends
+    // },
     {
       id: 1,
-      name: t.NAV.FRINEDS,
-      to: '/friends',
-      icon: <UsersIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.pagesShow.friends
+      name: t.NAV.SITEMAP,
+      to: '/sitemap',
+      icon: <MapIcon className='inline-block mb-1 h-5 w-5' />,
+      show: BLOG.pagesShow.sitemap
     },
     {
       id: 2,
@@ -60,7 +68,7 @@ const Footer = ({ fullWidth }) => {
       to: '/contact',
       icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.contact
-    }
+    },
   ]
 
   return (

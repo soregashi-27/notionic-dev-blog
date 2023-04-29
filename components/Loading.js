@@ -1,3 +1,8 @@
+/**
+ * Loadingアニメーション
+ * 
+ */
+
 import BLOG from '@/blog.config'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
@@ -20,7 +25,7 @@ export default function Loading({ notionSlug }) {
     <div className='py-6 sm:py-8 lg:py-12'>
       <div className='max-w-screen-2xl px-4 md:px-8 mx-auto'>
         <div className='flex flex-col items-center'>
-          <div className='inline-flex items-center gap-2.5 mb-8'>
+          {/* <div className='inline-flex items-center gap-2.5 mb-8'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='24'
@@ -33,7 +38,7 @@ export default function Loading({ notionSlug }) {
                 <path d='M754 616 c-40 -19 -88 -39 -108 -46 -43 -14 -45 -30 -7 -72 25 -28 33 -31 80 -30 39 1 54 -3 58 -15 7 -18 -30 -140 -58 -192 -36 -67 6 -93 135 -84 l86 6 0 -26 c0 -14 -4 -37 -10 -51 -5 -14 -8 -26 -6 -26 7 0 110 68 129 85 11 10 17 30 17 60 0 62 -22 70 -150 57 -52 -5 -98 -6 -103 -2 -4 3 3 31 16 61 13 30 32 78 42 108 10 30 28 70 41 89 26 38 30 63 14 93 -17 31 -91 25 -176 -15z' />
               </g>
             </svg>
-          </div>
+          </div> */}
 
           <p className='inline-flex items-center text-sm md:text-base font-semibold uppercase mb-4'>
             <svg className='animate-spin -ml-1 mr-3 h-5 w-5 text-gray-400' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'>

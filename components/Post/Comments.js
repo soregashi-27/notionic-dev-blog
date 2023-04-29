@@ -1,3 +1,10 @@
+/**
+ * 特定のブログ記事に対するコメントシステムをレンダリング
+ * 
+ * ※未使用
+ */
+
+
 import BLOG from '@/blog.config'
 import dynamic from 'next/dynamic'
 

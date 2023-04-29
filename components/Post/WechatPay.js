@@ -1,3 +1,10 @@
+/**
+ * We chat pay
+ * 
+ * ※未使用
+ * 
+ */
+
 import Image from 'next/image'
 
 // export default function WechatPay() {

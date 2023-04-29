@@ -1,5 +1,6 @@
 /**
  * 日付をローカライズして表示する
+ * 執筆日、最終更新日を表示
  * 
  */
 
@@ -32,7 +33,10 @@ export default function FormattedDate ({ date }) {
     } catch (err) {
       console.warn(`dayjs locale \`${locale}\` not found`)
     }
-    return dayjs(date).format('ll')
+    // TODO: SEO的にどの書き方がいいかを検証する
+    //return dayjs(date).format('ll')
+    return dayjs(date).format('ll') + " (Last Updated: " + dayjs(date).format('LL') + ")"
+    //return dayjs(date).format('ll') + " (Last Updated: " + dayjs(date).format('LLL') + ")"
   }, [locale, date])
 
   // サーバーサイドとクライアントサイドでレンダリングに一貫性がない問題を解決する。
@@ -45,3 +49,5 @@ export default function FormattedDate ({ date }) {
   }
   return <span>{formattedDate}</span>
 }
+
+

@@ -1,3 +1,13 @@
+/**
+ * ブログ投稿を表示するためのReactコンポーネント
+ * 
+ * 「概要」 
+ * ・投稿のタイトル
+ * ・投稿概要
+ * ・日付
+ * ・画像
+ */
+
 import BLOG from '@/blog.config'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -29,7 +39,7 @@ const BlogPost = ({ post }) => {
               </span>
             </header>
             <p className='font-light hidden md:block leading-8 text-gray-700 dark:text-gray-300'>{post.summary}</p>
-            {/* summaryからlead_書き換える */}
+            {/* summaryからlead_sentenceへ書き換える */}
             {/* w-4/5  */}
           </div>
         </article>

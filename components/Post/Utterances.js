@@ -1,3 +1,10 @@
+/**
+ * Utterancesという外部コメントサービス
+ * 
+ * ※未使用
+ */
+
+
 import BLOG from '@/blog.config'
 import { useEffect } from 'react'
 const Utterances = ({ issueTerm, layout }) => {

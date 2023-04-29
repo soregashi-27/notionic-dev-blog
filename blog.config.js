@@ -11,7 +11,7 @@ const BLOG = {
   email: 'contact.tomo.studyvlog@gmail.com',
   link: 'https://tomomemo.com',
   newsletter: 'Comming soon..',
-  description: '開発レベルを上げるために、現役エンジニアがつづるメモ書き',
+  description: '未経験からエンジニアを目指す人へ向けた、現役エンジニアがつづるメモ書き',
   lang: 'ja-JP', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -24,11 +24,12 @@ const BLOG = {
   sortByDate: true,
   pagesShow: {
     newsletter: true,
-    notes: true,
-    projects: true,
+    notes: false,
+    projects: false,
     contact: true,
     books: true,
-    friends: true
+    friends: false,
+    sitemap: true
   },
   showWeChatPay: true,
   previewImagesEnabled: true,
@@ -36,9 +37,9 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // OG画像を生成するためのリンクで、スラッシュで終わらないようにしてください。
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/izuolan', // LINKEDINアイコンへ変更予定
+    github: 'https://github.com/',
+    //telegram: 'https://t.me/zuolan' // 削除予定
   },
   seo: {
     keywords: ['tomomemo', 'tomo study vlog', 'とも スタディブログ', 'とも スタディブログ', 'エンジニア ブログ', 'エンジニア ブログ 開発'],

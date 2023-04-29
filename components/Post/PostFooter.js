@@ -1,3 +1,10 @@
+/**
+ * グッドボタンやコンタクトボタン
+ * 
+ * 他の目的で実装する
+ * TODO Page Nationや他の記事を出す場所にしたい
+ */
+
 import BLOG from '@/blog.config'
 import { useState } from 'react'
 import { lang } from '@/lib/lang'

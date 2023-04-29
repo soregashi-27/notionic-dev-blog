@@ -1,3 +1,8 @@
+/**
+ * ブログ投稿の内容を表示する
+ * 
+ */
+
 import BLOG from '@/blog.config'
 import PropTypes from 'prop-types'
 import Link from 'next/link'

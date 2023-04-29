@@ -1,3 +1,11 @@
+/**
+ * Notionページをレンダリングするために使用される
+ * NotionRenderer コンポーネントを定義
+ * 
+ * react-notion-xを使用している
+ * 
+ */
+
 import BLOG from '@/blog.config'
 import PropTypes from 'prop-types'
 import dynamic from 'next/dynamic'

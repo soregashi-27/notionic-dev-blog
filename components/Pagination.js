@@ -1,3 +1,9 @@
+/**
+ * ページネーション
+ * 
+ * TODO テストする必要あり
+ */
+
 import Link from 'next/link'
 import BLOG from '@/blog.config'
 import { lang } from '@/lib/lang'

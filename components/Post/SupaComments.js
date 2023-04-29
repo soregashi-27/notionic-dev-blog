@@ -1,3 +1,10 @@
+/**
+ * supaコメントを返す
+ * 
+ * ※未使用
+ * 
+ */
+
 import BLOG from '@/blog.config'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
